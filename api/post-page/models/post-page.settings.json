@@ -1,8 +1,9 @@
 {
   "kind": "singleType",
-  "collectionName": "post_pages",
+  "collectionName": "post",
   "info": {
-    "name": "postPage"
+    "name": "post",
+    "description": ""
   },
   "options": {
     "increments": true,
