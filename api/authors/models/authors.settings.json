@@ -41,6 +41,10 @@
       "repeatable": true,
       "component": "author.social-links",
       "required": true
+    },
+    "posts": {
+      "via": "author",
+      "collection": "post-page"
     }
   }
 }

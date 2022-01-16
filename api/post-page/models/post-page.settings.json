@@ -35,6 +35,10 @@
       "type": "uid",
       "targetField": "title",
       "required": true
+    },
+    "author": {
+      "model": "authors",
+      "via": "posts"
     }
   }
 }
