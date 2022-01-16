@@ -37,8 +37,8 @@
       "required": true
     },
     "author": {
-      "model": "authors",
-      "via": "posts"
+      "via": "posts",
+      "model": "authors"
     }
   }
 }
