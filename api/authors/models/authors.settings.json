@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "authors",
   "info": {
-    "name": "Authors"
+    "name": "Authors",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -33,6 +34,12 @@
     },
     "role": {
       "type": "string",
+      "required": true
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "author.social-links",
       "required": true
     }
   }

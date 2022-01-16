@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_author_social_links",
+  "info": {
+    "name": "socialLinks",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "instagram",
+        "linkedin",
+        "github"
+      ]
+    }
+  }
+}
